@@ -1,0 +1,62 @@
+name = DHData.Org Theme (White)
+description = A Bootstrap Sub-theme for DHData.Org.
+core = 7.x
+base theme = bootstrap
+
+; Regions
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
+
+; Stylesheets
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/bootstrap-responsive.min.css
+stylesheets[all][] = css/overrides.css
+stylesheets[all][] = css/ckan.css
+stylesheets[all][] = css/style.css
+
+; JavaScripts
+scripts[] = js/hyphenator.js
+
+;**********************************
+; METHOD 1: Bootstrap Source Files
+;**********************************
+;
+; ; Scripts
+;scripts[] = 'dhdata_white/js/bootstrap-affix.js'
+;scripts[] = 'dhdata_white/js/bootstrap-alert.js'
+;scripts[] = 'dhdata_white/js/bootstrap-button.js'
+;scripts[] = 'dhdata_white/js/bootstrap-carousel.js'
+;scripts[] = 'dhdata_white/js/bootstrap-collapse.js'
+;scripts[] = 'dhdata_white/js/bootstrap-dropdown.js'
+;scripts[] = 'dhdata_white/js/bootstrap-modal.js'
+;scripts[] = 'dhdata_white/js/bootstrap-tooltip.js'
+;scripts[] = 'dhdata_white/js/bootstrap-popover.js'
+;scripts[] = 'dhdata_white/js/bootstrap-scrollspy.js'
+;scripts[] = 'dhdata_white/js/bootstrap-transition.js'
+;scripts[] = 'dhdata_white/js/bootstrap-typeahead.js'
+
+scripts[] = js/bootstrap.min.js
+
+; Settings inherited by base theme, uncomment to override.
+;settings[toggle_name] = 0
+;settings[toggle_search] = 1
+; Disable the CDN as we are using our own source files.
+settings[cdn_bootstrap] = 0
+
+
+;*************************
+; METHOD 2: Bootstrap CDN
+;*************************
+;
+; ; Settings inherited by base theme, uncomment to override.
+; ;settings[toggle_name] = 0
+; ;settings[toggle_search] = 1
+; ;settings[cdn_bootstrap] = 1
+; ;settings[cdn_bootstrap_version] = 2.3.1
+

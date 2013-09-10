@@ -1,0 +1,126 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro&subset=latin,latin-ext);
+
+.geshifilter li pre, code {
+  font-family: 'Source Code Pro', monospace !important;
+  font-weight: 400;
+}
+
+body {
+  background-color: #fcfcfc;
+}
+
+section.span9 {
+background-color: #ffffff;
+border: 1px solid #eee;
+padding: 2em 3em 4em;
+font-family: "Proxima Nova Regular", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+section.span9 p {
+  color: #444;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ color: #000;
+}
+
+label.control-label { float: left; width: 125px; text-align: right; margin-right: 5px; }
+
+.controls { margin-left: 130px; }
+
+form { padding-left: 0.5em; padding-right: 0.5em; padding-bottom: 0.5em; }
+
+.stars {
+  color: gold;
+  font-size: 150%;
+}
+
+.possible-stars {
+  font-size: 150%;
+  color: gold;
+  opacity: 0.25;
+}
+
+.nostars {
+  font-size: 150%;
+  color: #f5f5f5;
+}
+
+.tags .tag {
+  background-color: #3a87ad;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 2px 4px;
+  font-size: 11.844px;
+  font-weight: bold;
+  line-height: 14px;
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+
+.filtered.pill {
+  color: #ffffff;
+  background-color: #0088cc;
+  padding-top: 4px;
+padding-bottom: 4px;
+margin-top: 2px;
+margin-bottom: 2px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+padding-right: 12px;
+padding-left: 12px;
+margin-right: 2px;
+line-height: 14px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.filtered.pill .remove {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+li.active .divider { display: none; }
+
+.book-navigation {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.page-links .page-previous {
+  float: left;
+}
+
+.page-links .page-next {
+  float: right;
+}
+
+.page-links {
+  text-align: center;
+}
+
+article.node footer {
+  text-align: right;
+}
+
+li.li1 + li.li1, li.li2 + li.li1 { list-style-type: none; }
+li.li1, li.li2 { font-style: italic; }
+
+span.info-block.info-inline {
+  display: inline-block;
+}
+
+a {
+color: #08c;
+text-decoration: none;
+}
